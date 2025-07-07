@@ -32,7 +32,7 @@ public class Prodotto {
     }
 
     // constructor 1 (randomly generated product code)
-    Prodotto(String productName, String productDescription, BigDecimal productBasePrice, BigDecimal iva) {
+    public Prodotto(String productName, String productDescription, BigDecimal productBasePrice, BigDecimal iva) {
         this.productCode = generateProductCode();
         this.productName = productName;
         this.productDescription = productDescription;
@@ -42,7 +42,7 @@ public class Prodotto {
     }
 
     // constructor 2 (predefined product code)
-    Prodotto(String productCode, String productName, String productDescription, BigDecimal productBasePrice,
+    public Prodotto(String productCode, String productName, String productDescription, BigDecimal productBasePrice,
             BigDecimal iva) {
         this.productCode = productCode;
         this.productName = productName;
