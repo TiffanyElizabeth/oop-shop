@@ -13,5 +13,12 @@ public class Main {
                 "1234567891011", 100);
 
         System.out.println(phone.toString());
+
+        Cuffie headphones = new Cuffie("", "headphones", "lkdjfl", new BigDecimal("200"), new BigDecimal("0.22"), true);
+
+        headphones.getProductFinalPrice();
+
+        System.out.println(headphones.toString());
+
     }
 }

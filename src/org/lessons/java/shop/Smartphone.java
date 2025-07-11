@@ -3,8 +3,8 @@ package org.lessons.java.shop;
 import java.math.BigDecimal;
 
 public class Smartphone extends Prodotto {
-    public String imei;
-    public int memory;
+    private String imei;
+    private int memory;
 
     public String getImei() {
         return this.imei;
