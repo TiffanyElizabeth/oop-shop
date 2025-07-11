@@ -16,9 +16,15 @@ public class Main {
 
         Cuffie headphones = new Cuffie("", "headphones", "lkdjfl", new BigDecimal("200"), new BigDecimal("0.22"), true);
 
-        headphones.getProductFinalPrice();
+        System.out.println(headphones.generateFinalPrice());
 
         System.out.println(headphones.toString());
+
+        Televisori tv = new Televisori(" ", "tv", "ladjf", new BigDecimal("900"), new BigDecimal("0.22"), true);
+
+        System.out.println(tv.toString());
+
+        System.out.println(tv.generateFinalPrice());
 
     }
 }

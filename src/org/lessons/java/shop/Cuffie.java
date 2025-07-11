@@ -19,10 +19,6 @@ public class Cuffie extends Prodotto {
         }
     }
 
-    public boolean isAreWireless() {
-        return this.areWireless;
-    }
-
     public boolean getAreWireless() {
         return this.areWireless;
     }
