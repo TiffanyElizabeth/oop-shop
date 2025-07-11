@@ -119,4 +119,9 @@ public class Prodotto {
     public void setProductFinalPrice(BigDecimal productFinalPrice) {
         this.productFinalPrice = productFinalPrice;
     }
+
+    // toString
+    public String toString() {
+        return getProductCode() + " - " + getProductName();
+    }
 }

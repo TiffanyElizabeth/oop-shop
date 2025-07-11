@@ -8,5 +8,10 @@ public class Main {
 
         System.out.println(test.generateProductCode());
         System.out.println(test.generateCodeName());
+
+        Prodotto phone = new Smartphone("", "phone", "dalkfj", new BigDecimal("200"), new BigDecimal("0.22"),
+                "1234567891011", "100 GB");
+
+        System.out.println(phone.toString());
     }
 }
