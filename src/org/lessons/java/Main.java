@@ -1,6 +1,10 @@
-package org.lessons.java.shop;
+package org.lessons.java;
 
 import java.math.BigDecimal;
+import org.lessons.java.shop.Prodotto;
+import org.lessons.java.shop.Smartphone;
+import org.lessons.java.shop.Televisori;
+import org.lessons.java.shop.Cuffie;
 
 public class Main {
     public static void main(String[] args) {

@@ -22,9 +22,9 @@ public class Smartphone extends Prodotto {
         this.memory = memory;
     }
 
-    public Smartphone(String productCode, String productName, String productDescription, BigDecimal productBasePrice,
+    public Smartphone(String productCode, String productName, BigDecimal productBasePrice,
             BigDecimal iva, String imei, int memory) {
-        super(productCode, productName, productDescription, productBasePrice, iva);
+        super(productCode, productName, productBasePrice, iva);
         this.imei = imei;
         this.memory = memory;
     }

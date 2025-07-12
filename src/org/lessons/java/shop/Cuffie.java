@@ -5,9 +5,9 @@ import java.math.BigDecimal;
 public class Cuffie extends Prodotto {
     private boolean areWireless = false;
 
-    public Cuffie(String productCode, String productName, String productDescription, BigDecimal productBasePrice,
+    public Cuffie(String productCode, String productName, BigDecimal productBasePrice,
             BigDecimal iva, boolean areWireless) {
-        super(productCode, productName, productDescription, productBasePrice, iva);
+        super(productCode, productName, productBasePrice, iva);
         this.areWireless = areWireless;
     }
 

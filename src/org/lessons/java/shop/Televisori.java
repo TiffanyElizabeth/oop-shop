@@ -21,9 +21,9 @@ public class Televisori extends Prodotto {
         this.isSmart = isSmart;
     }
 
-    public Televisori(String productCode, String productName, String productDescription, BigDecimal productBasePrice,
+    public Televisori(String productCode, String productName, BigDecimal productBasePrice,
             BigDecimal iva, boolean isSmart) {
-        super(productCode, productName, productDescription, productBasePrice, iva);
+        super(productCode, productName, productBasePrice, iva);
         this.isSmart = isSmart;
     }
 

@@ -56,11 +56,10 @@ public class Prodotto {
 
     // new DEFINITITVE constructor (by using setProductCode() logic, I can combine
     // both constructors)
-    public Prodotto(String productCode, String productName, String productDescription, BigDecimal productBasePrice,
+    public Prodotto(String productCode, String productName, BigDecimal productBasePrice,
             BigDecimal iva) {
         setProductCode(productCode); // can't use "this.productCode" because setter is a void method
         this.productName = productName;
-        this.productDescription = productDescription;
         this.productBasePrice = productBasePrice;
         this.iva = iva;
         this.productFinalPrice = generateFinalPrice();
